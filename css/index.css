@@ -16,8 +16,8 @@ header {
 }
 
 header img {
-    height: 80px;
-    width: 80px;
+    height: auto;
+    width: 150px;
     margin-left: 10px;
 }
 
@@ -63,47 +63,45 @@ main {
     font-size: 14px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: #f8f8f8;
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-}
 
 aside {
     width: 20%;
-    background-color: #838080;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     padding: 10px;
     margin-right: 20px;
 }
-aside ul {
-    padding: 0;
-    margin: 0;
+#entradas, #categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: gray;
 }
-
 aside ul li {
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
+#entradas h5, #categorias h5{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-block-start:0;
+    margin-block-end:0;
+}
 
 aside ul li a {
     color: black;
-   font-size: 10px;
+   font-size: 12px;
 }
 
 section {
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -111,18 +109,41 @@ section {
 }
 section div {
     margin-left: 10px;
+    margin-bottom: 10px;
     border: 1px solid black;
-    height: 350px;
+    height: 450px;
     width: 48%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+section div article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+section div img{
+    height: auto;
+    max-width: 100%;
+}
+section div h3{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+section div p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 
-section img {
-    width: 48%;
-    height: 80%;
 }
 footer{ 
     height: 50px;
@@ -135,3 +156,4 @@ footer{
     justify-content: space-between;
    
 }
+
