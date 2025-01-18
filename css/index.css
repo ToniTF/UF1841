@@ -141,7 +141,7 @@ section div h3{
 section div p{
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     padding: 10px 10px 10px 10px;
 
 }
